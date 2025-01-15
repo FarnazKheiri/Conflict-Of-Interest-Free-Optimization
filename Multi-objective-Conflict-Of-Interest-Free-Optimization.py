@@ -20,6 +20,7 @@ from sklearn import metrics
 ## optimization packages
 from pymoo.algorithms.moo.nsga2 import NSGA2
 from pymoo.optimize import minimize
+from pymoo.visualization.scatter import Scatter
 
 
 # ### load Data 
@@ -264,7 +265,7 @@ result = minimize(problem,
 # In[ ]:
 
 
-from pymoo.visualization.scatter import Scatter
+
 
 Scatter().add(result.F).show()
 

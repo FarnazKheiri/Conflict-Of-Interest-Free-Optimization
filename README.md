@@ -22,6 +22,8 @@ This function performs K-Nearest Neighbors (KNN) classification to predict label
 
 ### Returns:
 `predictions`: predicted cancer labels for the validation samples.
+### Example Usage: 
+`predictions = KNN_class (finetuned_training_features, finetuned_validation_features)`
 
 ### Note:
 - The `n_neighbors` parameter in the KNN classifier is set to `3` by default; this can be adjusted as needed.

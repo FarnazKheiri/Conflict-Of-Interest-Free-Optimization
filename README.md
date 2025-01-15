@@ -11,5 +11,4 @@ The project is developed using following packages:
   `pip install -U pymoo`
 
 ## Dataset
-The dataset required for this project can be downloaded from the following link: [Dataset - Google Drive](https://drive.google.com/drive/folders/18FWc68M_XItQXtOUoIDemxwagLYTsIkg?usp=sharing)
-This dataset is a truly balanced subset of TCGA dataset. 
+The dataset used for this project (a balanced subset of TCGA dataset) can be downloaded from the following link: [Dataset - Google Drive](https://drive.google.com/drive/folders/18FWc68M_XItQXtOUoIDemxwagLYTsIkg?usp=sharing)

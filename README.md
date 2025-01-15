@@ -50,3 +50,6 @@ The class extends the `ElementwiseProblem` from the `pymoo` library and evaluate
     - Defines the objectives
         - `center_f1score` (to be minimized).
         - `-cancer_f1score` (negative value to maximize the cancer F1 score).
+**Additional Functions:**
+- `compute_cancer_f1_score`: Uses the `KNN_class` function to predict cancer labels on the validation dataset.
+- `compute_center_f1_score`: Uses typical form of `KNN` classifier.

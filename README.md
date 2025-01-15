@@ -4,3 +4,6 @@
 This repository contains the code, required dependencies, and instructions for running the project.
 
 ## Getting Started
+The project is developed using following packages:
+- **`Python Vesrion`**: 3.10
+- **`Tensorflow Vesrion`**: 2.10

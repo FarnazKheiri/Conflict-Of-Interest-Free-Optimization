@@ -17,4 +17,9 @@ The dataset used for this project (a balanced subset of TCGA dataset) can be dow
 ### 1. KNN_class(finetuned_training_features, finetuned_validation_features)
 This function performs K-Nearest Neighbors (KNN) classification to predict labels for features of validation samples while avoiding samples with conflicts of interest in terms of center labels from search space (finetuned_training_features).
 ### Parameters
-`finetuned_training_features`
+`finetuned_training_features`: Training sample features extracted via the unlearning layer.
+`finetuned_validation_features`: Validation sample features extracted via the unlearning layer.
+
+### Returns:
+`predictions`: predicted cancer labels for the validation samples.
+

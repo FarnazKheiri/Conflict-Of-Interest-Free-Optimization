@@ -23,3 +23,7 @@ This function performs K-Nearest Neighbors (KNN) classification to predict label
 ### Returns:
 `predictions`: predicted cancer labels for the validation samples.
 
+### Note:
+- The `n_neighbors` parameter in the KNN classifier is set to `3` by default; this can be adjusted as needed.
+- The function ensures that the training search space does not include samples from the same center as the validation samples to maintain fairness and avoid bias.
+

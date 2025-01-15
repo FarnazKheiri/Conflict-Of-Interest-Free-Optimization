@@ -13,4 +13,4 @@ The project is developed using following packages:
 ## Dataset
 The dataset used for this project (a balanced subset of TCGA dataset) can be downloaded from the following link: [Dataset - Google Drive](https://drive.google.com/drive/folders/18FWc68M_XItQXtOUoIDemxwagLYTsIkg?usp=sharing)
 
-## **Key Functions in Multi-objective-Conflict-Of-Interest-Free-Optimization.py **
+## **Key Functions in Multi-objective-Conflict-Of-Interest-Free-Optimization.py**

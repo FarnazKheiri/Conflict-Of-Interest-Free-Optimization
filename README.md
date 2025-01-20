@@ -14,7 +14,7 @@ The project is developed using following packages:
 The dataset used for this project (a balanced subset of TCGA dataset) can be downloaded from the following link: [Dataset - Google Drive](https://drive.google.com/drive/folders/1FU40tvcKCHGqQnmzPha2dtCAWNZpViR-?usp=sharing)
 
 ## `data_loading.py`
-The code uses the data provided in the given path and the pretrained model to extract the features of cancerous samples. The outputs are fed into the methods,  `Multi-objective-Conflict-Of-Interest-Free-Optimization.py`, `adversarial_learning.py`, and `multi_task_learning.py` to complete the unlearning procedures.
+The code uses the data provided in the given path and the pretrained model to extract the features of cancerous samples. The outputs are loaded into the methods,  `Multi-objective-Conflict-Of-Interest-Free-Optimization.py`, `adversarial_learning.py`, and `multi_task_learning.py` to complete the unlearning procedures.
 
 ## Key Functions in `Multi-objective-Conflict-Of-Interest-Free-Optimization.py`
 ### 1. KNN_class(finetuned_training_features, finetuned_validation_features)

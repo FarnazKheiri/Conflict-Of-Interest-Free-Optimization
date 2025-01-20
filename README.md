@@ -16,7 +16,7 @@ The dataset used for this project (a balanced subset of TCGA dataset) can be dow
 ## `data_loading.py'
 The code uses the data provided in the given path and the pretrained model to extract the features of cancerous samples. The outputs are fed into the methods to complete the unlearning procedures.
 
-## `Key Functions in Multi-objective-Conflict-Of-Interest-Free-Optimization.py`
+## Key Functions in 'Multi-objective-Conflict-Of-Interest-Free-Optimization.py`
 ### 1. KNN_class(finetuned_training_features, finetuned_validation_features)
 This function performs K-Nearest Neighbors (KNN) classification to predict labels for features of validation samples while avoiding samples with conflicts of interest in terms of center labels from search space (finetuned_training_features).
 ### Parameters

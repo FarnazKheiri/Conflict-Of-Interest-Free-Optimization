@@ -18,6 +18,24 @@ from sklearn.preprocessing import LabelEncoder
 
 
 # In[ ]:
+# Load features extracted in "data_loading" step
+with open('./output/train_feature.pickle', 'rb') as f:
+    train_feature = pickle.load(f)
+with open('./output/validation_feature.pickle', 'rb') as f:
+    validation_feature = pickle.load(f)
+with open('./output/test_feature.pickle', 'rb') as f:
+    test_feature = pickle.load(f)
+with open('./output/external_feature.pickle', 'rb') as f:
+    external_feature = pickle.load(f)
+
+# Load labels
+with open('./output/train_cancer_labels.pickle', 'rb') as f:
+    train_cancer_labels = pickle.load(f)
+with open('./output/validation_cancer_labels.pickle', 'rb') as f:
+    validation_cancer_labels = pickle.load(f)
+with open('./output/test_cancer_labels.pickle', 'rb') as f:
+    test_cancer_labels = pickle.load(f)
+
 
 
 cancer_types = 2

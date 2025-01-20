@@ -1,8 +1,18 @@
-#!/usr/bin/env python
-# coding: utf-8
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers, models, Model
+import numpy as np
+import pickle
+import pdb
 
-# In[ ]:
+from numpy import argmax
 
+from sklearn import metrics
+from sklearn.neighbors import KNeighborsClassifier
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.losses import SparseCategoricalCrossentropy, categorical_crossentropy, CategoricalCrossentropy
+from tensorflow.keras.metrics import SparseCategoricalAccuracy
 
 from sklearn.preprocessing import LabelEncoder
 
